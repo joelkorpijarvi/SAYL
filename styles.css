@@ -1,0 +1,10 @@
+.otsikko
+{
+    padding: 1rem 0rem 1rem 0rem;
+    border-bottom: 2px solid darkblue;
+}
+
+.otsikko h4
+{
+    color: darkblue;
+}
