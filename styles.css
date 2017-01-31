@@ -9,9 +9,28 @@
     color: darkblue;
 }
 
-.valikko div a 
+.valikko
 {
+    border-bottom: 2px solid red;
+}
+
+.valikko div
+{
+    padding: 0rem;
+}
+
+.valikko div a
+{
+    width: 100%;
+    color: black;
+    display: block;
     text-align: center;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    font-size: 1.25rem;
+    padding: 0.5rem 0rem 0.5rem 0rem;
+    transition: background-color 0.1s;
+}
+
+.valikko div a:hover
+{
+    background-color: #E0E0E0;
 }
