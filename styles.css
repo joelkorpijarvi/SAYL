@@ -27,12 +27,38 @@
     text-align: center;
     font-size: 1.25rem;
     padding: 0.5rem 0rem 0.5rem 0rem;
-    transition: background-color 0.1s;
+    transition: background-color 0.1s, color 0.1s;
 }
 
 .valikko div a:hover
 {
-    background-color: #D6D7D9;
+    color: white;
+    background-color: #205493;
+}
+
+.valikko div a.selected
+{
+    background-color: #CD2026;
+}
+
+.uutisia
+{
+    margin-top: 2rem;
+}
+
+.uutisia div
+{
+    height: 35rem;
+}
+
+.sin
+{
+    background-color: #e1f3f8;
+}
+
+.pun
+{
+    background-color: #f9dede;
 }
 
 img
@@ -44,4 +70,40 @@ iframe
 {
     width: 100%;
     height: 32rem;
-)
+}
+
+/* Tablet CSS */
+
+@media screen and (max-width: 1024px)
+{
+    .pun:nth-child(4)
+    {
+        background-color: #e1f3f8;
+    }
+
+    .pun:nth-child(4) img
+    {
+        width: auto;
+        height: 25rem;
+    }
+
+    .sin:nth-child(3)
+    {
+        background-color: #f9dede;
+    }
+}
+
+/* Phone CSS */
+
+@media screen and (max-width: 640px)
+{
+    .pun:nth-child(4)
+    {
+        background-color: #f9dede;
+    }
+
+    .sin:nth-child(3)
+    {
+        background-color: #e1f3f8;
+    }
+}
