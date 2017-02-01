@@ -1,7 +1,7 @@
 .otsikko
 {
     padding: 1rem 0rem 1rem 0rem;
-    border-bottom: 2px solid darkblue;
+    border-bottom: 2px solid #205493;
 }
 
 .otsikko h4
@@ -11,7 +11,7 @@
 
 .valikko
 {
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid #CD2026;
 }
 
 .valikko div
@@ -32,5 +32,5 @@
 
 .valikko div a:hover
 {
-    background-color: #E0E0E0;
+    background-color: #D6D7D9;
 }
