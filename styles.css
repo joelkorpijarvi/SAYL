@@ -6,7 +6,11 @@
 
 .otsikko h4
 {
+    margin: 0rem;
+    font-size: 3rem;
     color: #205493;
+    padding: 0.25rem 0rem;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .valikko
@@ -87,6 +91,11 @@ iframe
         height: 25rem;
     }
 
+    .otsikko h4
+    {
+        font-size: 2rem;
+    }
+
     .sin:nth-child(3)
     {
         background-color: #f9dede;
@@ -105,5 +114,10 @@ iframe
     .sin:nth-child(3)
     {
         background-color: #e1f3f8;
+    }
+    
+    .otsikko h4
+    {
+        font-size: 1.75rem;
     }
 }
