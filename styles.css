@@ -1,3 +1,8 @@
+h4, h3, h5, p
+{
+    font-family: 'Times New Roman', Times, serif;
+}
+
 .otsikko
 {
     padding: 1rem 0rem 1rem 0rem;
@@ -10,7 +15,6 @@
     font-size: 3rem;
     color: #205493;
     padding: 0.25rem 0rem;
-    font-family: 'Times New Roman', Times, serif;
 }
 
 .valikko
@@ -57,12 +61,12 @@
 
 .sin
 {
-    background-color: #e1f3f8;
+    background-color: #FAFAFA;
 }
 
 .pun
 {
-    background-color: #f9dede;
+    background-color: #FFFFFF;
 }
 
 img
@@ -80,42 +84,17 @@ iframe
 
 @media screen and (max-width: 1024px)
 {
-    .pun:nth-child(4)
-    {
-        background-color: #e1f3f8;
-    }
-
-    .pun:nth-child(4) img
-    {
-        width: auto;
-        height: 25rem;
-    }
 
     .otsikko h4
     {
         font-size: 2rem;
-    }
-
-    .sin:nth-child(3)
-    {
-        background-color: #f9dede;
     }
 }
 
 /* Phone CSS */
 
 @media screen and (max-width: 640px)
-{
-    .pun:nth-child(4)
-    {
-        background-color: #f9dede;
-    }
-
-    .sin:nth-child(3)
-    {
-        background-color: #e1f3f8;
-    }
-    
+{    
     .otsikko h4
     {
         font-size: 1.75rem;
